@@ -1,18 +1,30 @@
 $(document).ready(function() {
   $("#formOne").submit(function(event) {
-    var person1Input = $("input#person1").val();
-    var person2Input = $("input#person2").val();
-    var animalInput= $("input#animal").val();
-    var exclamationInput = $("input#exclamation").val();
-    var verbInput = $("input#verb").val();
-    var nounInput = $("input#noun").val();
+    var adj1Input = $("input#adj1").val();
+    var adj2Input = $("input#adj2").val();
+    var adj3Input= $("input#adj3").val();
+    var adv1Input = $("input#adv1").val();
+    var noun1Input = $("input#noun1").val();
+    var noun2Input = $("input#noun2").val();
+    var noun3Input = $("input#noun3").val();
+    var noun4Input = $("input#noun4").val();
+    var plurNoun1Input = $("input#plurNoun1").val();
+    var plurNoun2Input = $("input#plurNoun2").val();
+    var silly1Input = $("input#silly1").val();
+    var verb1Input = $("input#verb1").val();
 
-    $(".person1").text(person1Input);
-    $(".person2").text(person2Input);
-    $(".animal").text(animalInput);
-    $(".exclamation").text(exclamationInput);
-    $(".verb").text(verbInput);
-    $(".noun").text(nounInput);
+    $(".adj1").text(adj1Input);
+    $(".adj2").text(adj2Input);
+    $(".adj3").text(adj3Input);
+    $(".adv1").text(adv1Input);
+    $(".noun1").text(noun1Input);
+    $(".noun2").text(noun2Input);
+    $(".noun3").text(noun3Input);
+    $(".noun4").text(noun4Input);
+    $(".plurNoun1").text(plurNoun1Input);
+    $(".plurNoun2").text(plurNoun2Input);
+    $(".silly1").text(silly1Input);
+    $(".verb1").text(verb1Input);
 
     $("#story").show();
 
